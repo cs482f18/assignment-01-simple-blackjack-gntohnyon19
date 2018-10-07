@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BlackJack</string>
+    <string name="say_hi">Say Hi</string>
+    <string name="stand">Stand</string>
+    <string name="hit">Hit</string>
+    <string name="player">Player</string>
+    <string name="dealer">Dealer</string>
+    <string name="new_game">New Game</string>
+
+</resources>
