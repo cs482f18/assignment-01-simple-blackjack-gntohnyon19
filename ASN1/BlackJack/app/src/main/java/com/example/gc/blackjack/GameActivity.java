@@ -36,9 +36,12 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game_activity);
 
+        
         final ArrayList<Card> playerHand = new ArrayList<Card>();
         final ArrayList<Card> dealerHand = new ArrayList<Card>();
 
+        // ADD SOME INLINE COMMENTS WITHIN METHODS
+        
         Deck myDeck = new Deck();
         final Random rand;
 
@@ -228,7 +231,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     /**
-     *
+     * -- WRITE A METHOD DESCRIPTION
      * @param cardsList Returns the card list with last three cards not visible
      */
     public void hide_last_three(ArrayList<ImageView> cardsList){
@@ -238,7 +241,7 @@ public class GameActivity extends AppCompatActivity {
     }
 
     /**
-     *
+     * -- DESCRIBE THE METHOD
      * @param cards The cards to find the total
      * @return The total value of the cards
      *
