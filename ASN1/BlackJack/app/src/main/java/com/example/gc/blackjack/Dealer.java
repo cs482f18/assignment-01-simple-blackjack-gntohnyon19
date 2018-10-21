@@ -5,8 +5,8 @@ import java.util.ArrayList;
  * The Dealer class which create a dealer object and extends it's super class player
  *
  * @author Gilchrist Toh
- * @version 1.0
- * @since 2018-10-06
+ * @version 1.0 - Add Date here -- 2018-10-06
+ * @since - put a version number here
  */
 public class Dealer extends Player{
 
@@ -18,7 +18,7 @@ public class Dealer extends Player{
     }
 
     /**
-     *
+     * -- Describe the purpose of the method
      * @return if the dealer can get a new card
      */
     public boolean needCard () {
